@@ -11,6 +11,8 @@ kubectl apply -f /shared_conf/mysql-pv.yaml;
 echo '4.0 create mysql pod';
 kubectl apply -f /shared_conf/dbpod.yaml;
 
+exit 0 ;
+
 echo '99 - finish!' ;
 echo $?;
   

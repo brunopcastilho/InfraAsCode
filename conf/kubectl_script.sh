@@ -19,5 +19,7 @@
 	echo '6.0 install kubectl' ;
 	sudo apt-get install -y kubectl ;
 
+	exit 0 
+	
 echo '99 - finish!' ;
 echo $?;

@@ -5,11 +5,14 @@
  sudo install minikube-linux-amd64 /usr/local/bin/minikube ;
  
 echo '1.0 adding user to docker group';
-sudo usermod -aG docker $USER && newgrp docker;
-sudo usermod -aG docker vagrant && newgrp docker;
+
  
  echo '3.0 set driver docker'
  minikube config set driver docker ;
+ 
+ minikube start --driver=none;
+ 
+ exit 0 ;
  
 echo '99 - finish!' ;
 echo $?;

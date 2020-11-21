@@ -27,25 +27,19 @@
   echo "8.1 docker-ce";
   sudo apt-get install docker-ce -y;
   
+  echo 'rc ' $?;
+  
   echo "8.2 docker-ce-cli";
   sudo apt-get install docker-ce-cli  -y;
   
+  echo 'rc ' $?;
+  
   echo "8.3 containerd.io";
-  sudo apt-get install containerd.io -y;
-
+  sudo apt-get install containerd.io -y | true ;
   
-  
-  echo '10.0 dpkg fix';
-  sudo dpkg --configure -a;
-  
-  echo '11.0 apt-get install -f';
-  sudo apt-get install -f;
-  
+  exit 0 ;
+ 
 
+echo '99 - finish!'  $?;
 
-  #echo '13.0 docker run'
-  #docker run hello-world;
-
-echo '99 - finish!' ;
-echo $?;
   
