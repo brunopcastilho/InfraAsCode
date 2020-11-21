@@ -41,9 +41,7 @@
   echo '11.0 apt-get install -f';
   sudo apt-get install -f;
   
-  echo '12.0 usermod -aG docker $USER && newgrp docker';
-  sudo usermod -aG docker vagrant;
-  sudo usermod -aG docker $USER;
+
 
   #echo '13.0 docker run'
   #docker run hello-world;
