@@ -1,0 +1,17 @@
+ '1.0 minikube script curl minikube 
+2.0 install minikube
+3.0 set drover docker
+4.0 start docker
+* minikube v1.15.1 on Ubuntu 18.04 (vbox/amd64)
+* Using the docker driver based on user configuration
+
+
+ '1.0 minikube script curl minikube 
+2.0 install minikube
+3.0 set drover docker
+4.0 start docker
+* minikube v1.15.1 on Ubuntu 18.04 (vbox/amd64)
+* Using the docker driver based on user configuration
+
+
+ '1.0 minikube script curl minikube 
