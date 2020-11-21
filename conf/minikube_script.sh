@@ -8,6 +8,9 @@ echo '1.0 adding user to docker group';
 sudo usermod -aG docker $USER && newgrp docker;
 sudo usermod -aG docker vagrant && newgrp docker;
  
- echo '3.0 set drover docker'
+ echo '3.0 set driver docker'
  minikube config set driver docker ;
  
+echo '99 - finish!' ;
+echo $?;
+  

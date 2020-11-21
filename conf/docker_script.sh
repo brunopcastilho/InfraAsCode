@@ -11,15 +11,11 @@
 	echo "6.0 add-apt-repository";
 	sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu focal stable";
 
-   echo "7.0 apt-get update";
-  sudo apt-get update;
-
  
  echo "2.0 apt-get update";
  sudo apt-get update -y;
  
- #echo "2.1 apt-get install libseccomp2 2.4.1";
- #sudo apt-get install libseccomp2 2.4.1 -y;
+
 
  echo "3.0 apt-get install apt-transport-https";
  sudo apt-get install apt-transport-https ca-certificates curl gnupg-agent software-properties-common -y;
@@ -46,4 +42,12 @@
   sudo apt-get install -f;
   
   echo '12.0 usermod -aG docker $USER && newgrp docker';
-  sudo usermod -aG docker vagrant && newgrp docker;
+  sudo usermod -aG docker vagrant;
+  sudo usermod -aG docker $USER;
+
+  #echo '13.0 docker run'
+  #docker run hello-world;
+
+echo '99 - finish!' ;
+echo $?;
+  
