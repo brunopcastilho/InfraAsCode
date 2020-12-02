@@ -9,9 +9,16 @@ echo '1.0 adding user to docker group';
  
  echo '3.0 set driver docker'
  minikube config set driver docker ;
+
+
+    #sudo mv /root/.kube /root/.minikube /home/vagrant
+    #sudo chown -R vagrant /home/vagrant/.kube /home/vagrant/.minikube
  
- minikube start --driver=none;
  
+ minikube start --driver=docker;
+    
+
+
  exit 0 ;
  
 echo '99 - finish!' ;

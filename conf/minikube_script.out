@@ -1,0 +1,71 @@
+ '1.0 minikube script curl minikube 
+2.0 install minikube
+1.0 adding user to docker group
+3.0 set driver docker
+* minikube v1.15.1 on Ubuntu 18.04 (vbox/amd64)
+* Using the none driver based on user configuration
+* Starting control plane node minikube in cluster minikube
+* Running on localhost (CPUs=2, Memory=3944MB, Disk=9861MB) ...
+* OS release is Ubuntu 18.04.5 LTS
+* Preparing Kubernetes v1.19.4 on Docker 19.03.13 ...
+  - kubelet.resolv-conf=/run/systemd/resolve/resolv.conf
+* Configuring local host environment ...
+* Verifying Kubernetes components...
+* Enabled addons: default-storageclass, storage-provisioner
+* Done! kubectl is now configured to use "minikube" cluster and "default" namespace by default
+ '1.0 minikube script curl minikube 
+2.0 install minikube
+1.0 adding user to docker group
+3.0 set driver docker
+* minikube v1.15.1 on Ubuntu 18.04 (vbox/amd64)
+* Using the none driver based on user configuration
+* Starting control plane node minikube in cluster minikube
+* Running on localhost (CPUs=2, Memory=3944MB, Disk=9861MB) ...
+* OS release is Ubuntu 18.04.5 LTS
+* Preparing Kubernetes v1.19.4 on Docker 19.03.13 ...
+  - kubelet.resolv-conf=/run/systemd/resolve/resolv.conf
+* Configuring local host environment ...
+* Verifying Kubernetes components...
+* Enabled addons: default-storageclass, storage-provisioner
+* Done! kubectl is now configured to use "minikube" cluster and "default" namespace by default
+ '1.0 minikube script curl minikube 
+2.0 install minikube
+1.0 adding user to docker group
+3.0 set driver docker
+* minikube v1.15.1 on Ubuntu 18.04 (vbox/amd64)
+* Using the docker driver based on user configuration
+
+
+ '1.0 minikube script curl minikube 
+2.0 install minikube
+1.0 adding user to docker group
+3.0 set driver docker
+* minikube v1.15.1 on Ubuntu 18.04 (vbox/amd64)
+* Using the docker driver based on user configuration
+
+
+ '1.0 minikube script curl minikube 
+2.0 install minikube
+1.0 adding user to docker group
+3.0 set driver docker
+3.1 usermod
+* minikube v1.15.1 on Ubuntu 18.04 (vbox/amd64)
+* Using the docker driver based on user configuration
+
+
+ '1.0 minikube script curl minikube 
+2.0 install minikube
+1.0 adding user to docker group
+3.0 set driver docker
+* minikube v1.15.1 on Ubuntu 18.04 (vbox/amd64)
+* Using the docker driver based on user configuration
+
+
+ '1.0 minikube script curl minikube 
+2.0 install minikube
+1.0 adding user to docker group
+3.0 set driver docker
+* minikube v1.15.1 on Ubuntu 18.04 (vbox/amd64)
+* Using the docker driver based on user configuration
+
+
